@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--link css-->
+    <link rel="stylesheet" href="css/style.css">
+    <title>projetojk</title>
+</head>
+<body>  
+    <!--header-->
+    <header style="background-image: url('img/Meu\ projeto.jpg');">
+        <!--container-->
+        <div class="container">
+            <nav>
+                <a href="index.html">
+                    <img src="img/logo.png" alt="logo">
+                </a>
+                <ul class="ul">
+                    <a href="index.html">Home</a>
+                    <a href="Sobre.html">Sobre</a>
+                    <a href="serviços.html">Serviços</a>
+                    <a class="btn" href="contato.html">Contato</a>
+                    <div class="close-icon" onclick="closeMenu()">
+                        <i class="fa-solid fa-circle-xmark"></i>
+                    </div>
+                </ul>
+                <div class="menu-icon" onclick="openMenu()">
+                    <i class="fa-solid fa-bars"> </i>
+                </div>
+            </nav>
+            <section class="banner">
+                <div class="banner-text">
+                    <h1>Jottaka Brand</h1>
+                    <p>Seja um revendedor autorizado</p>
+                    <a href="contato.html" class="btn">Entrar em contato</a>
+                </div>
+            </section>
+        </div>
+        <!--end container-->
+    </header>
+    <!--end header-->
+    <!--faça mais-->
+    <section class="faca-mais">
+        <!--container-->
+        <div class="container">
+            <div class="faca-mais-text">
+                <h3>Eleve o nível com a JK Brand</h3>
+                <p>
+                    Pra quem é diferenciado em tudo que faz, JOTTAKA BRAND fora da curva.
+
+                </p>
+                <a href="contato.html" class="btn animate-btn">Seja um revendedor</a>
+            </div>
+        <div class="faca-mais-img">
+            <img src="img/sejajksemfundo.png" alt="">
+        </div>
+        </div>
+        <!--end container-->
+
+    </section>
+    <!--end faca mais-->
+
+    <!--faça mais 2-->
+    <section class="faca-mais">
+        <!--container-->
+        <div class="container">
+            <div class="faca-mais-img">
+                <img src="img/mo-removebg-preview.png" alt="">
+            </div>
+            <div class="faca-mais-text">
+                <h3>Beach and summer collection</h3>
+                <p>
+                    Pocure um revendedor mais próximo de você e garanta já suas peças.
+
+                </p>
+                <a href="contato.html" class="btn animate-btn">Entrar em contato</a>
+            </div>
+        
+        </div>
+        <!--end container-->
+
+    </section>
+    <!--end faca mais 2-->
+
+    <!--depoimentos-->
+
+    <section class="depoimentos">
+        <div class="container">
+            <h3>Depoimentos</h3>
+            <p>Leia o que nossos clientes falam de nós em todo o Brasil</p>
+    
+            <div class="cards">
+                <!-- Card 1 -->
+                <div class="card-item">
+                    <img src="img/pexels-elena-rubtsova-15212752.jpg" alt="Elena">
+                    <p class="nome-user">Elena Gomes</p>
+                    <p class="depoimento-user">
+                        Amei todas as peças que comprei, peças lindas e de qualidade. Super recomendo.
+                    </p>
+                    <div class="estrelas">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+                <!-- Fim Card 1 -->
+    
+                <!-- Card 2 -->
+                <div class="card-item">
+                    <img src="img/99999.jpeg" alt="Romulo">
+                    <p class="nome-user">Romulo mendonça</p>
+                    <p class="depoimento-user">
+                        Gostei da minha primeira compra, tecido de excelente qualidade. Com certeza vou comprar mais peças.
+                    </p>
+                    <div class="estrelas">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+                <!-- Fim Card 2 -->
+    
+                <!-- Card 3 -->
+                <div class="card-item">
+                    <img src="img/pexels-kyle-loftus-12118422.jpg" alt="Caio">
+                    <p class="nome-user">Caio Ferreira</p>
+                    <p class="depoimento-user">
+                        Recebi minhas compras hoje e me surpreendi com a qualidade das roupas. Recomendo a todos.
+                    </p>
+                    <div class="estrelas">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+                <!-- Fim Card 3 -->
+            </div>
+        </div>
+    </section>
+    <!--end depoimentos-->
+
+    <!--clientes-->
+
+    <section class="clientes">
+        <div class="container">
+            <h3> Nossos revendedores</h3>
+            <p> Seja um revendedor autorizado e junte-se a eles!</p>
+            <div>
+                <img src="img/franca store.png" alt="">
+                <img src="img/ls style.png" alt="">
+                <img src="img/wnstyle.png" alt="">
+                <img src="img/wwwww.png" alt="">
+
+            </div>
+        </div>
+    </section>
+    <!--end clientes-->
+
+    <!--video-->
+<section class="faca-mais">
+    <!--container-->
+    <div class="container">
+        <div class="faca-mais-text">
+            <h3>Sempre lançando moda</h3>
+            <p>
+                Acabou o recreio, entre em contato conosco!
+            </p>
+            <a href="contato.html" class="btn animate-btn">Seja um revendedor</a>
+        </div>
+        <div class="videomp4">
+            <video controls autoplay>
+                <source src="img/instasave.mp4" type="video/mp4">
+            
+            </video>
+        </div>
+    </div>
+</section>
+        <!--end container-->
+
+    </section>
+    <!--end faca mais-->
+
+<!--cadastro-->
+
+<section>
+    <div class="container-form">
+        <h2>Formulário de Contato</h2>
+        <form action="processar_formulario.php" method="POST" onsubmit="return enviarFormulario(event)">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="assunto">Assunto:</label>
+            <input type="text" id="assunto" name="assunto" required>
+            
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</section>
+
+<script>
+    function enviarFormulario(event) {
+        event.preventDefault(); // Impede o envio do formulário
+
+        // Realize aqui as ações de envio do formulário, como requisições AJAX
+
+        exibirMensagemDeEnvio();
+        return false;
+    }
+
+    function exibirMensagemDeEnvio() {
+        alert("Formulário enviado com sucesso!"); // Você pode modificar a mensagem conforme necessário
+    }
+</script>
+
+<!--end cadastro-->
+
+
+    <!--footer-->
+
+    
+    <footer>
+        <div class="container-fluid">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="img/logo.png" alt="Logo">
+                </div>
+                <div class="footer-links">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Sobre</a></li>
+                        <li><a href="#">Serviços</a></li>
+                        <li><a href="https://l.instagram.com/?u=https%3A%2F%2Fwa.me%2Fmessage%2FVMGUGWQ2OEPNO1&e=AT3iRD9wxfrvq4hdibQRv1i5yc3faIxv6TotB3XvLyxlZlWw_Dsg_XF-zQAvF4Gf2m4vNAUievbfkdOQBIcLx5U3pTke-5to">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <ul>
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="https://instagram.com/jottakabrand?igshid=MzRlODBiNWFlZA=="><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Jottaka Brand. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+    <!--end footer-->
+
+
+
+
+    <script src="js/main.js"></script>
+
+</body>
+</html>
+
+    
